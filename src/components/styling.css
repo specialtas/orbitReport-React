@@ -1,9 +1,18 @@
 h1,
-p {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+helloText
+.header {
+  background-color: #5c94ce;
+  color: white;
+  padding: 42px;
+  margin: 10px;
   text-align: center;
+  text-decoration: none;
+  font-size: 77px;
+  font-weight: bold;
 }
-
+.centered {
+  text-align: center;;
+}
 button {
   background-color: #5c94ce;
   border-radius: 15px;
@@ -16,6 +25,20 @@ button {
   font-size: 16px;
   font-weight: bold;
 }
+.satelliteButton {
+  background-color: #5c94ce;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 
 .flex-container {
   display: flex;
@@ -50,11 +73,6 @@ td {
   text-align: center;
   padding: 8px;
 }
-
-h1 {
-  padding: 50px;
-  text-align: center;
-  background: #5c94ce;
-  color: white;
-  font-size: 60px;
+{
+:last-child
 }
